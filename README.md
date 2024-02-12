@@ -11,5 +11,5 @@ Before running the analysis, ensure you have installed the required Python packa
 
 ```bash
 pip install ucimlrepo pycaret
-```bash
+
 pip install matplotlib scikit-learn pandas numpy
