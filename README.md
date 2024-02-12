@@ -27,3 +27,10 @@ Hierarchical Clustering builds a hierarchy of clusters either through an agglome
 ### Spectral Clustering (SC)
 
 Spectral Clustering uses the eigenvalues of a similarity matrix to reduce dimensionality before applying a clustering algorithm, typically KMeans, to the lower-dimensional space. It is particularly useful for identifying clusters that are not necessarily globular and can capture complex structures.
+
+# Clustering Configuration Results
+
+This document summarizes the results of various clustering configurations tested on a dataset. The configurations include different combinations of preprocessing steps such as normalization, PCA (Principal Component Analysis), and transformations, followed by clustering with different cluster sizes. The performance of each clustering configuration is evaluated using three metrics: Silhouette score, Calinski-Harabasz index, and Davies-Bouldin index.
+
+
+
