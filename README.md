@@ -18,3 +18,12 @@ Before running the analysis, ensure you have installed the required Python packa
 ### KMeans Clustering
 
 KMeans is a partitioning method that divides the dataset into `k` clusters. It starts with random centroid initialization and iteratively assigns each data point to the nearest cluster while updating the centroids.
+
+### Hierarchical Clustering (HClust)
+
+Hierarchical Clustering builds a hierarchy of clusters either through an agglomerative (bottom-up) or divisive (top-down) approach. The result is often visualized using a dendrogram.
+
+
+### Spectral Clustering (SC)
+
+Spectral Clustering uses the eigenvalues of a similarity matrix to reduce dimensionality before applying a clustering algorithm, typically KMeans, to the lower-dimensional space. It is particularly useful for identifying clusters that are not necessarily globular and can capture complex structures.
