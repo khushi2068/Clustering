@@ -11,5 +11,10 @@ Before running the analysis, ensure you have installed the required Python packa
 
 ```bash
 pip install ucimlrepo pycaret
-
 pip install matplotlib scikit-learn pandas numpy
+
+## Clustering Techniques
+
+### KMeans Clustering
+
+KMeans is a partitioning method that divides the dataset into `k` clusters. It starts with random centroid initialization and iteratively assigns each data point to the nearest cluster while updating the centroids.
