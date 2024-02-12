@@ -9,10 +9,10 @@ This project demonstrates the application of clustering techniques, specifically
 
 Before running the analysis, ensure you have installed the required Python packages:
 
- ```bash
- pip install ucimlrepo pycaret
- pip install matplotlib scikit-learn pandas numpy
-
+  ```bash
+  pip install ucimlrepo pycaret
+  pip install matplotlib scikit-learn pandas numpy
+  ```
 ## Clustering Techniques
 
 ### KMeans Clustering
